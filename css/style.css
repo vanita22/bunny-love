@@ -1,5 +1,66 @@
+body{
+	font-family: 'Prompt', sans-serif;
+}
+
+/*menu*/
+
+.menu{
+	background-color: #23BAEE;
+	color: white;	
+	height: 10vh auto;
+	padding: 5px;
+	width: 100%;	
+	margin: auto;
+	display: flex; /*hacer más adaptativas las pestañas cuando cambie el margen de los dispositivos*/
+	flex-direction: row wrap; /*establecemos la dirección de las pestañas*/
+	justify-content: space-between;/*establece el espacio de las pestañas en el menu*/
+	align-items: center;
+}
+
+#logo{
+	width: 250px;
+	display: inline-flex;	
+	margin-left: 40px;
+	
+}
+
+.uno{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 30px;
+	color: white;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.dos{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 30px;
+	color: #F15C52;
+	display: inline-block;	
+}
+
+@media (max-width: 900px){
+	.custom-restricted-width {
+       flex-direction: column;    
+	}
+	.pure-menu-horizontal {
+		display: none;
+	}
+}
+@media (min-width: 900px){
+	.custom-restricted-width {
+       display: none  
+	}	
+}
+
+#menuLink1{
+	background-color: #23BAEE;
+}
+
+/*caja uno*/
+
 .container{
-	display: flex;              /* con todos estos flex, dejo dos div alineados y en forma de columna cuando quedan en vista movil*/
+	display: flex;         /* con todos estos flex, dejo dos div alineados y en forma de columna cuando quedan en vista movil*/
 	flex-direction: row;
 	flex-wrap: wrap;	
 	align-content: center;
@@ -12,9 +73,8 @@
 	height: 80vh;
 	background-repeat: no-repeat;
 	background-size: cover;	
-	margin: 20px 110px;
-	padding: 2px;	
-	
+	margin: 0px 110px;
+	padding: 2px;		
 	display: flex;
 }
 
@@ -107,3 +167,5 @@
 		font-size: 15px;			
 	}
 }
+
+/*caja dos*/
