@@ -1,5 +1,6 @@
 body{
 	font-family: 'Prompt', sans-serif;
+	background-color: #E0EBEF;
 }
 
 /*menu*/
@@ -169,3 +170,105 @@ body{
 }
 
 /*caja dos*/
+
+.box-2{
+	background-color: white;
+	width: 80%;
+	height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	margin: 0px 110px;
+	padding: 2px;		
+	display: flex;
+	justify-content: space-around;	
+	margin-top: 20px;
+}
+
+.caja-1{
+	flex-direction: column;
+	text-align: center;
+	background-color: #23BAEE;
+	width: 20%;
+	height: 75vh;
+	padding: 5px;
+}
+
+.caja-2{
+	flex-direction: column;
+	text-align: center;
+	background-color: #23BAEE;
+	width: 20%;
+	height: 75vh;
+	padding: 5px;
+}
+
+.caja-3{
+	flex-direction: column;
+	text-align: center;
+	background-color: #23BAEE;
+	width: 20%;
+	height: 75vh;
+	padding: 5px;
+}
+
+.caja-4{
+	flex-direction: column;
+	text-align: center;
+	background-color: #23BAEE;
+	width: 20%;
+	height: 75vh;
+	padding: 5px;
+}
+
+@media (max-width: 700px){
+	.caja-1{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 100%;
+		height: 70vh;			
+	}
+	.caja-2{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 100%;
+		height: 70vh;				
+	}
+	.caja-3{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 100%;
+		height: 70vh;				
+	}
+	.caja-4{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 100%;
+		height: 70vh;				
+	}
+	.box-2{
+		justify-content: flex-start;
+		align-items: flex-end;
+		flex-direction: column;
+		margin: 30px;
+		margin-bottom: 5px;
+	}
+}
+
+@media (min-width: 701px) and (max-width: 1024px){
+	.caja-1{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 70%;
+		height: 90vh;			
+	}
+	.caja-2{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 70%;
+		height: 90vh;				
+	}
+	.caja-3{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 70%;
+		height: 90vh;				
+	}
+	.caja-4{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+		width: 70%;
+		height: 90vh;				
+	}
+	.box-2{
+		width: 50%;	
+		background-color: #E0EBEF;	
+		justify-content: flex-start;
+		align-items: flex-end;
+		flex-direction: column;			
+	}
+}
+
