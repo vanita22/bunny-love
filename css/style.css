@@ -184,6 +184,17 @@ body{
 	margin-top: 20px;
 }
 
+.box-2 h2{
+	font-family: 'Baloo Paaji', cursive;
+	color: #F15C52;
+	font-size: 20px;
+}
+
+.box-2 p{
+	color: white;
+	font-size: 15px;
+}
+
 .caja-1{
 	flex-direction: column;
 	text-align: center;
@@ -247,19 +258,19 @@ body{
 }
 
 @media (min-width: 701px) and (max-width: 1024px){
-	.caja-1{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+	.caja-1{					
 		width: 70%;
 		height: 90vh;			
 	}
-	.caja-2{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+	.caja-2{					
 		width: 70%;
 		height: 90vh;				
 	}
-	.caja-3{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+	.caja-3{					
 		width: 70%;
 		height: 90vh;				
 	}
-	.caja-4{					/*esta media me permite que cuando quede en vista móvil se pueda achicar y quedar debajo del div anterior aumentando su ancho a un 100%*/
+	.caja-4{					
 		width: 70%;
 		height: 90vh;				
 	}
@@ -271,4 +282,153 @@ body{
 		flex-direction: column;			
 	}
 }
+
+/*caja tres*/
+
+.box-3{
+	display: inline-flex;
+	flex-direction: row;
+	background-color: #23BAEE;	
+	width: 80%;
+	height: 180vh;	
+	margin: 0 110px;		
+	margin-top: 0;
+	padding: 4px;
+}
+
+.caja-5{
+	flex-direction: column;
+	margin: 10px 20px;	
+	width: 55%;
+	height: 170vh;
+	background-color: white;
+	padding: 5px;	
+}
+
+.caja-5 h2{
+	font-family: 'Baloo Paaji', cursive;
+	color: #F15C52;
+	font-size: 20px;	
+}
+
+.caja-6{
+	flex-direction: column;
+	margin: 10px 20px;	
+	margin-top: 10px;
+	width: 35%;
+	height: 170vh;
+	padding: 5px;
+}
+
+.box1{
+	background-color: #E0EBEF;
+	margin: 10px 20px;
+	width: 80%;
+	height: 40px;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+.box1 input{
+	width: 270px;
+	height: 30px;
+	border-radius: 6px;
+}
+
+.box2{
+	background-color: white;
+	margin: 10px 20px;
+	width: 80%;
+	height: 70vh;	
+	padding: 10px;
+}
+
+.box2 h2{
+	font-family: 'Baloo Paaji', cursive;
+	color: #F15C52;
+	font-size: 20px;	
+}
+
+.box2 i{
+	margin-right: 10px;
+	margin-left: 40px;
+}
+
+.box3{
+	background-color: white;
+	margin: 10px 20px;
+	width: 80%;
+	height: 75vh;	
+	padding: 10px;
+}
+
+.box3 h2{
+	font-family: 'Baloo Paaji', cursive;
+	color: #F15C52;
+	font-size: 20px;	
+}
+
+
+
+@media (max-width: 700px){
+	.caja-6{					
+		display: none;			
+	}
+	.caja-5{	
+		background-color: white;				
+		width: 80%;
+		height: 300vh;				
+	}
+
+	.caja-5 img{
+		width: 100%;
+	}
+
+	.caja-5 iframe{
+		width: 100%;
+	}
+
+	.box-3{
+		display: flex;
+		flex-direction: column;
+		background-color: #23BAEE;	
+		width: 80%;
+		height: 280vh;	
+		margin: 0 20px;		
+		margin-top: 1100px;
+		padding: 4px;			
+	}	
+}
+
+@media (min-width: 701px) and (max-width: 1024px){
+	.caja-6{					
+		display: none;			
+	}
+	.box-3{
+		display: flex;
+		flex-direction: column;
+		background-color: #23BAEE;	
+		width: 40%;
+		height: 220vh;	
+		margin: 0 220px;		
+		margin-top: 1100px;
+		padding: 4px;			
+	}
+	.caja-5{	
+		background-color: white;				
+		width: 80%;
+		height: 300vh;				
+	}
+
+	.caja-5 img{
+		width: 100%;
+	}
+
+	.caja-5 iframe{
+		width: 100%;
+	}
+
+}
+
+
 
